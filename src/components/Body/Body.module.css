@@ -1,0 +1,33 @@
+.body {
+  background-color: #000000;
+  margin: -20px;
+  padding: 40px;
+}
+
+.nav {
+  display: inline-block;
+  background-color: #1d1f25;
+  border-radius: 50px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 13px 24px;
+}
+
+.selected {
+  background-color: var(--yellow-color);
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,35 @@
+.header {
+  background-color: var(--header-dark);
+  margin: -20px;
+  padding: 30px;
+}
+
+.line {
+  top: 103px;
+  height: 0px;
+  opacity: 0.15;
+  width: 100%;
+  border: 1px solid #ffffff;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: var(--nav-link);
+  margin-left: 40px;
+  top: 143px;
+}
+
+.input {
+  width: 448px;
+  height: 35px;
+  margin-left: 40px;
+  background-image: url("../assets/search.svg");
+  background-position: 5px;
+  background-size: 4%;
+  background-repeat: no-repeat;
+  background-color: #282c38;
+  border-radius: 6px;
+  color: #757b8c;
+  text-indent: 30px;
+  border: none;
+}

@@ -1,0 +1,16 @@
+.btn {
+  float: right;
+  padding: 5px;
+  background-color: #282c38;
+  border-radius: 10px;
+  margin-left: 16px;
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+.btn:hover,
+.selected {
+  cursor: pointer;
+  background-color: var(--yellow-color);
+}

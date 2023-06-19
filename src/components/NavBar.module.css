@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+  src: url('../assets/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+       url('../assets/fonts/ClashDisplay-Medium.woff') format('woff'),
+       url('../assets/fonts/ClashDisplay-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+.container .title {
+  height: 32px;
+  font-family: "ClashDisplay-Medium";
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--yellow-color);
+  margin-left: 0px;
+}
+
+.container li {
+  display: inline;
+  height: 21px;
+  margin: 40px;
+  color: var(--nav-link);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.icon {
+  width: 43px;
+  height: 43px;
+}
+
+.svgs {
+  float: right;
+}
+
+.svg,
+.icon {
+  margin: 0px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: inline;
+}
+
+.svg {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--nav-link);
+}
