@@ -43,6 +43,7 @@
   background: #1d1f25;
   border-radius: 10px;
   margin: 20px;
+  cursor: pointer;
 }
 
 .container img {
