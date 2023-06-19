@@ -4,3 +4,7 @@
   --input-inner: #282c38;
   --nav-link: #ffffff;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
