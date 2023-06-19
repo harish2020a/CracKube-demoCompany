@@ -12,12 +12,16 @@ const Header = () => {
       <hr className={classes.line} />
       <h1 className={classes.title}>We tackle interesting topics every day</h1>
       <input className={classes.input} placeholder="Find Courses" />
-      <Button classProp="selected">
-        <img src={btn2Svg} alt="btn" />
-      </Button>
-      <Button>
-        <img src={btn1Svg} alt="btn" />
-      </Button>
+      <div
+        style={{ display: "inline-block", float: "right", marginRight: "30px" }}
+      >
+        <Button>
+          <img src={btn1Svg} alt="btn" />
+        </Button>
+        <Button classProp="selected">
+          <img src={btn2Svg} alt="btn" />
+        </Button>
+      </div>
     </header>
   );
 };

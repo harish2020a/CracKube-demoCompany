@@ -1,5 +1,4 @@
 .btn {
-  float: right;
   padding: 5px;
   background-color: #282c38;
   border-radius: 10px;
@@ -7,6 +6,7 @@
   width: 40px;
   height: 40px;
   border: none;
+  display: inline-block;
 }
 
 .btn:hover,
